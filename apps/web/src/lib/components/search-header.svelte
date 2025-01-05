@@ -32,7 +32,7 @@
 		<h1 class="shots-search-hero__heading mb-6 mt-6 w-[480px] text-center text-5xl font-medium">
 			Discover the world’s top designers
 		</h1>
-		<h2 class="shots-search-hero__subheading mb-6 w-[800px] text-center text-2xl text-[#6e6d7a]">
+		<h2 class="shots-search-hero__subheading mb-6 w-[800px] text-center text-lg font-thin text-[#6e6d7a]">
 			Explore work from the most talented and accomplished designers ready to take on your next
 			project
 		</h2>
@@ -59,36 +59,36 @@
 			</h1>
 			<p class="mb-3 text-center text-[#6e6d7a]">Browse {search} designs</p>
 		{/if} -->
-		<div class="mt-4 flex items-center gap-2">
-			<span class="opacity-60"> Trending searches: </span>
+		<div class="mt-6 flex items-center gap-2">
+			<span class="opacity-60 font-thin"> Trending searches: </span>
 			<ul
 			class="scrollbar-hide flex gap-2 overflow-x-auto overflow-y-hidden scroll-smooth whitespace-nowrap px-[2px]"
 		>
 			<li>
 				<button
 					type="button"
-					class="inline-flex h-6 items-center rounded-full bg-[#f8f7f4] px-4 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
+					class="inline-flex h-6 items-center rounded-full bg-[#f8f7f4] px-2 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
 					>Web Design</button
 				>
 			</li>
 			<li>
 				<button
 					type="button"
-					class="-ml-4 inline-flex h-6 items-center rounded-full px-4 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
+					class="inline-flex h-6 items-center rounded-full bg-[#f8f7f4] px-2 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
 					>Discover</button
 				>
 			</li>
 			<li>
 				<button
 					type="button"
-					class="inline-flex h-6 items-center rounded-full px-4 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
+					class="inline-flex h-6 items-center rounded-full bg-[#f8f7f4] px-2 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
 					>Animation</button
 				>
 			</li>
 			<li>
 				<button
 					type="button"
-					class="inline-flex h-6 items-center rounded-full px-4 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
+					class="inline-flex h-6 items-center rounded-full bg-[#f8f7f4] px-2 text-sm font-semibold leading-5 hover:cursor-pointer hover:opacity-70"
 					>Branding</button
 				>
 			</li>
