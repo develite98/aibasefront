@@ -1,0 +1,10 @@
+{
+	"/": [],
+	"/profile": [],
+	"/profile/edit": [
+		"src/routes/profile/edit/+page.server.ts"
+	],
+	"/sign-in": [],
+	"/sign-up": [],
+	"/work/[id]": []
+}
